@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19937" started-at="2022-06-01T17:02:40 IST" finished-at="2022-06-01T17:03:00 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19937" started-at="2022-06-01T17:02:40 IST" finished-at="2022-06-01T17:03:00 IST">
+      <class name="script.TC1">
+        <test-method status="PASS" signature="report()[pri:0, instance:script.TC1@146044d7]" name="report" is-config="true" duration-ms="273" started-at="2022-06-01T17:02:40 IST" finished-at="2022-06-01T17:02:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:script.TC1@146044d7]" name="beforeClass" is-config="true" duration-ms="5414" started-at="2022-06-01T17:02:40 IST" finished-at="2022-06-01T17:02:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="method(java.lang.reflect.Method)[pri:0, instance:script.TC1@146044d7]" name="method" is-config="true" duration-ms="53" started-at="2022-06-01T17:02:46 IST" finished-at="2022-06-01T17:02:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.TC1.login_logout() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="login_logout()[pri:0, instance:script.TC1@146044d7]" name="login_logout" duration-ms="12897" started-at="2022-06-01T17:02:46 IST" finished-at="2022-06-01T17:02:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_logout -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.TC1@146044d7]" name="afterClass" is-config="true" duration-ms="1229" started-at="2022-06-01T17:02:59 IST" finished-at="2022-06-01T17:03:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- script.TC1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
